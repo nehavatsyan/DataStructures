@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var n, num int // n is the size of the dimension of the matrix
+	var n, num int
+	// n is the size of the dimension of the matrix
 	fmt.Scanf("%d", &n)
 	visit := make([]int, 0, 10)
 	adj := make([][]int, 0, 10) // the adjacency matrix
