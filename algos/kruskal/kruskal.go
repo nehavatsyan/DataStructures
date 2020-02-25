@@ -49,7 +49,7 @@ func main() {
 		u := find(a)
 		v := find(b)
 		//fmt.Print(u, v)
-		ne = ne + 1
+		ne++
 		adj[a][b] = 999
 		adj[b][a] = 999
 		//fmt.Print(uni(u, v))
